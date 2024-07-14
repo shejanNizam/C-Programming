@@ -19,19 +19,50 @@ int main()
     */
 
     // Q2 --> solve
-    int ages[] = {20, 22, 18, 35, 48, 16, 87, 70};
+    /*
+        int ages[] = {20, 22, 18, 35, 48, 16, 87, 70};
 
-    int length = sizeof(ages) / sizeof(ages[0]);
-    int lowestAge = ages[0];
+        int length = sizeof(ages) / sizeof(ages[0]);
+        int lowestAge = ages[0];
 
-    for (int i = 0; i < length; i++)
-    {
-        if (lowestAge > ages[i])
+        for (int i = 0; i < length; i++)
         {
-            lowestAge = ages[i];
+            if (lowestAge > ages[i])
+            {
+                lowestAge = ages[i];
+            }
         }
-    }
-    printf("\n Lowest Age is: %d \n", lowestAge);
+        printf("\n Lowest Age is: %d \n", lowestAge);
+    */
+
+    // Q3 --> solve
+    /*
+        float price[3];
+
+        printf("Enter price of 3: ");
+        scanf("%f %f %f", &price[0], &price[1], &price[2]);
+
+        printf("\nTotal price 1: %.2f, \nTotal price 2: %.2f, \nTotal price 3: %.2f",
+               price[0] + (price[0] * 0.18),
+               price[1] + (price[1] * 0.18),
+               price[2] + (price[2] * 0.18));
+    */
+
+    // Q3 --> solve == using for loop
+    /*
+        float price[3];
+        float totalPrice = 0;
+
+        printf("Enter price of 3: ");
+        scanf("%f %f %f", &price[0], &price[1], &price[2]);
+        int length = sizeof(price) / sizeof(price[0]);
+
+        for (int i = 0; i < length; i++)
+        {
+            totalPrice = price[i] + (price[i] * 0.18);
+            printf("\n Total price %d: %f", i + 1, totalPrice);
+        }
+    */
 
     return 0;
 };

@@ -2,4 +2,7 @@ Q1: let's create a program that calculates the average of different ages:
 
 Q2: create a program that finds the lowest age among different ages:
 
-Q3: 
+Q3: Write a program to enter price of 3 items & print their final cost 
+    with gst(18%)
+
+Q4: 
