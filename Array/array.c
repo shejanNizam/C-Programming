@@ -50,18 +50,22 @@ int main()
 
     // Q3 --> solve == using for loop
     /*
-        float price[3];
-        float totalPrice = 0;
+       float price[3];
+       float totalPrice = 0;
 
-        printf("Enter price of 3: ");
-        scanf("%f %f %f", &price[0], &price[1], &price[2]);
-        int length = sizeof(price) / sizeof(price[0]);
+       printf("Enter price of 3: ");
+       int length = sizeof(price) / sizeof(price[0]);
 
-        for (int i = 0; i < length; i++)
-        {
-            totalPrice = price[i] + (price[i] * 0.18);
-            printf("\n Total price %d: %f", i + 1, totalPrice);
-        }
+       for (int i = 0; i < length; i++)
+       {
+           scanf("%f", &price[i]);
+       }
+
+       for (int i = 0; i < length; i++)
+       {
+           totalPrice = price[i] + (price[i] * 0.18);
+           printf("\n Total price %d: %f", i + 1, totalPrice);
+       }
     */
 
     return 0;

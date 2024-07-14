@@ -1,3 +1,3 @@
-### C Programming Language
+## C Programming Language
 
-# for run -- gcc {file name}
+### for run -- gcc {file name}
