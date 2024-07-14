@@ -1,0 +1,5 @@
+Q1: let's create a program that calculates the average of different ages:
+
+Q2: create a program that finds the lowest age among different ages:
+
+Q3: 
