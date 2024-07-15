@@ -90,5 +90,28 @@ int main()
         }
     */
 
+    // Q4 --> solve
+    int n, i, sum = 0;
+
+    printf("Enter array size: ");
+    scanf("%d", &n);
+
+    int array[n];
+
+    printf("Enter %d elements of array: ", n);
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &array[i]);
+    }
+
+        for (i = 0; i < n; i++)
+    {
+        if (array[i] % 2 == 0)
+        {
+            sum += array[i];
+        }
+    }
+    printf("Sum up all the even integers: %d", sum);
+
     return 0;
 };

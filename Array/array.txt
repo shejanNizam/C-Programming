@@ -7,3 +7,8 @@ Q3: Write a program to enter price of 3 items & print their final cost
 
 Q4: WAP that will take n integer numbers into an array, and then print 
     all the integers  into reverse order (from the last valid index to index 0).
+
+Q5: WAP that will take n integer numbers into an array, and then sum up all 
+    the even integers in that array.    
+
+Q6:     
