@@ -68,5 +68,27 @@ int main()
        }
     */
 
+    // Q4 --> solve
+    /*
+        int n, i;
+
+        printf("Enter array size: ");
+        scanf("%d", &n);
+
+        int array[n];
+
+        printf("Enter %d elements of array: ", n);
+        for (i = 0; i < n; i++)
+        {
+            scanf("%d", &array[i]);
+        }
+
+        printf("Array element in reverse order: ");
+        for (i = n - 1; i >= 0; i--)
+        {
+            printf("%d ", array[i]);
+        }
+    */
+
     return 0;
 };

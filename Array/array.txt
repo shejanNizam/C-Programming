@@ -5,4 +5,5 @@ Q2: create a program that finds the lowest age among different ages:
 Q3: Write a program to enter price of 3 items & print their final cost 
     with gst(18%)
 
-Q4: 
+Q4: WAP that will take n integer numbers into an array, and then print 
+    all the integers  into reverse order (from the last valid index to index 0).
